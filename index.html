@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIC - Sunder Prajapati</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #004aad;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 5px;
+        }
+        nav {
+            background: #003080;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .plans {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .plan-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        form {
+            max-width: 500px;
+            margin: auto;
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        form input, form textarea, form button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        form button {
+            background: #004aad;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background: #003080;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: #fff;
+            padding: 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Life Insurance Corporation</h1>
+        <p>Sunder Prajapati - LIC Agent</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#plans">Plans</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I am Sunder Prajapati, your trusted LIC Agent. I help you secure your future with the best LIC plans tailored to your needs. Contact me for personalized advice and services.</p>
+    </section>
+
+    <section id="plans">
+        <h2>Our Popular Plans</h2>
+        <div class="plans">
+            <div class="plan-card">
+                <h3>Jeevan Anand</h3>
+                <p>A perfect combination of savings and protection for you and your family.</p>
+            </div>
+            <div class="plan-card">
+                <h3>Endowment Plan</h3>
+                <p>Save for your future while ensuring life cover throughout the term.</p>
+            </div>
+            <div class="plan-card">
+                <h3>Child Future Plan</h3>
+                <p>Secure your child's education and future with guaranteed returns.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mwkgyonv" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Inquiry</button>
+        </form>
+    </section>
+
+    <a href="https://wa.me/919662294382" class="whatsapp-btn">📱</a>
+
+    <footer>
+        <p>© 2025 Sunder Prajapati | LIC Agent</p>
+        <p>Email: sunder2909@gmail.com | Phone: 9662294382</p>
+    </footer>
+</body>
+</html>
